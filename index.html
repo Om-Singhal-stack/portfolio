@@ -8,22 +8,6 @@
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/utils.css">
-    <link rel="stylesheet" href="styles/modern-normalize.css">
-    <link rel="stylesheet" href="styles/components/about.css">
-    <link rel="stylesheet" href="styles/components/contact.css">
-    <link rel="stylesheet" href="styles/components/featured.css">
-    <link rel="stylesheet" href="styles/components/footer.css">
-    <link rel="stylesheet" href="styles/components/header.css">
-    <link rel="stylesheet" href="styles/components/hero.css">
-    <link rel="stylesheet" href="styles/components/mobile-nav.css">
-    <link rel="stylesheet" href="styles/components/work.css">
-    
-
-    
-    
-    
     <meta name="description" content="My Portfolio website" />
     <meta name="keywords" content="web design, html, css, js" />
     <title>Portfolio Website</title>
@@ -118,14 +102,14 @@
     <!-- End of Mobile Navigation -->
     <main>
       <section class="hero container">
-        <img style="transform: scale(1.2); border-radius: 20px; width: auto;" class="hero__img" src="public/myportimg-removebg-preview.png" alt="Profile picture" />
-        <h2 class="hero__subtitle">Hi, I'm Om Singhal👋</h2>
+        <img class="hero__img" src="/hero.jpg" alt="Profile picture" />
+        <h2 class="hero__subtitle">Hi, I'm Ramzi 👋</h2>
         <h1 class="hero__title">
           FRONT-END <br />
           WEB DEVELOPER.
         </h1>
         <p class="hero__description">
-          A passionate <strong>Frontend / Fullstack</strong> web
+          A passionate <strong>Frontend / Fullstack-Jamstack</strong> web
           developer and <strong>UI/UX</strong>
           enthusiast specialized in building stunning pixel-perfect interactive
           websites/applications.
@@ -136,10 +120,10 @@
         <div class="about__content">
           <h2 class="about__title">About</h2>
           <p class="about__description">
-            Hello there! I'm Om, a
-            <strong>Frontend / Fullstack</strong> web developer based
-            near Bulandshahr. I am a learner that codes in order to explore new technologies daily,
-            open up my laptop and build things that live on the web all
+            Hello there! I'm Ramzi, a
+            <strong>Frontend / Fullstack-Jamstack</strong> web developer based
+            near Montreal. I wake up in the morning, grab a cup of timmies
+            coffee, open up my laptop and build things that live on the web all
             day, everyday.
           </p>
           <p class="about__description">
@@ -147,27 +131,30 @@
             and love learning new things.
           </p>
           <p class="about__description">
-            I recently completed SQL Database on SSMS
-            <a>SQL Server Management Studio</a> where I learn how backend work's and lot's of data Manage.         </p>
+            I recently created a YouTube channel called
+            <a>Slaying The Dragon</a> where I upload videos on front-end web
+            development topics.
+          </p>
           <hr class="about__hr" />
           <h3 class="about__subtitle">Technologies</h3>
           <div class="about__ul-container">
             <ul class="about__ul">
-              <li class="about__list">JavaScript</li>
+              <li class="about__list">JavaScript (ES6+)</li>
               <li class="about__list">CSS</li>
               <li class="about__list">HTML</li>
             </ul>
             <ul class="about__ul">
-              <li class="about__list">SQL</li>
-              <li class="about__list">BootStrap</li>
-              <li class="about__list">Figma</li>
+              <li class="about__list">ReactJS</li>
+              <li class="about__list">NextJS</li>
+              <li class="about__list">TailwindCSS</li>
             </ul>
           </div>
         </div>
         <div class="about__img-wrapper">
           <img
             class="about__img lazy loading"
-            src="public/about.jpg"
+            src="https://via.placeholder.com/720"
+            data-src="/about.jpg"
             alt="Profile picture"
           />
         </div>
@@ -457,9 +444,8 @@
       </section>
     </main>
     <footer class="footer container section">
-      <h3 class="footer__title">~ Om Singhal ~</h3>
+      <h3 class="footer__title">~ Ramzi Bach ~</h3>
     </footer>
-
-  <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
